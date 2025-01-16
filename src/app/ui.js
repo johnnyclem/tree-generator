@@ -25,7 +25,7 @@ export function setupUI(tree, environment, renderer, scene, camera, controls, in
   pane?.off('change');
   pane?.dispose();
 
-  pane = new Pane({ container: document.getElementById('ui-container'), title: 'EZ Tree' });
+  pane = new Pane({ container: document.getElementById('ui-container'), title: 'tree of life' });
 
   const onChange = () => {
     tree.generate();
