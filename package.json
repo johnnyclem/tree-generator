@@ -54,6 +54,7 @@
     "tree"
   ],
   "dependencies": {
+    "next": "^15.1.4",
     "tweakpane": "^4.0.4"
   }
 }
