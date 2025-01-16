@@ -30,6 +30,7 @@
   "types": "./build/ez-tree.es.d.ts",
   "scripts": {
     "build:app": "vite build --config vite.app.config.js",
+    "vercel-build": "vite build --config vite.app.config.js",
     "build:lib": "vite build --config vite.lib.config.js",
     "build:watch": "vite build --config vite.lib.config.js --watch",
     "app": "npm run build:lib && vite --config vite.app.config.js",
